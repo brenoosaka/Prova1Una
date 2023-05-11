@@ -24,8 +24,7 @@ public class Prova1 {
         if (quantidadeConsumida <= 0) {
             System.out.println("Parabéns você atingiu a sua meta de hidratação diária !");
         } else {
-            System.out.println("Continue focado em se hidratar por hoje, ainda faltam: " + quantidadeConsumida
-                    + " litros ! Você consegue !");
+            System.out.println("Continue focado em se hidratar por hoje, ainda faltam: " + quantidadeConsumida + " litros ! Você consegue !");
         }
         scanner.close();
     }
